@@ -10,11 +10,11 @@ function App() {
     <ThemeContext.Provider value={{ color: theme }}>
       <div className='wrapper'>
         Counter
-        <Counter initialCount={0} />
+        <Counter initialCount={100} />
       </div>
       <div className='wrapper'>
         CounterHooks
-        <CounterHooks initialCount={0} />
+        <CounterHooks initialCount={100} />
       </div>
       <div className='wrapper'>
         <button onClick={() => setTheme(prevTheme => {
